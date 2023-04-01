@@ -4,6 +4,4 @@ repos:
     hooks:
       - id: tflint
         args:
-          - "--module"
-          - "--deep"
           - "--config=.tflint.hcl"
