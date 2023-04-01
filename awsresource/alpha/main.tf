@@ -5,6 +5,6 @@ module "main" {
   }
   service_name = [
     "test-ecr",
-    "sdfdsfs",
+    "test-ecr2",
   ]
 }
