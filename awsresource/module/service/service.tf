@@ -11,7 +11,6 @@ resource "aws_ecr_repository" "this" {
     var.default_tags,
     {
       Team = "sre"
-      Service ="test"
     },
   )
 }
