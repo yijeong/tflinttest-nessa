@@ -6,6 +6,6 @@ module "main" {
   }
   service_name = [
     "test-ecr",
-    "test2-ecr",
+    "mrss"
   ]
 }
