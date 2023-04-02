@@ -5,6 +5,5 @@ module "main" {
   }
   service_name = [
     "test-ecr",
-    "test3-ecr"
   ]
 }
