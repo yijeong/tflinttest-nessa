@@ -1,10 +1,10 @@
-module "main" {
-  source = "../main"
+module "ecr" {
+  source = "./module/service"
+
   default_tags = {
     Terraform   = "true"
   }
   service_name = [
-    "test-ecr",
-    "test-7"
+    "test-6"
   ]
 }
