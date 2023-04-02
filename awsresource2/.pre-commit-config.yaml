@@ -3,5 +3,5 @@ repos:
     rev: v0.1.20
     hooks:
       - id: tflint
-        args:terr
+        args:
           - "--config=.tflint.hcl"
