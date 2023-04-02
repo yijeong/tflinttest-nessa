@@ -5,5 +5,6 @@ module "main" {
   }
   service_name = [
     "test-ecr",
+    "test"
   ]
 }
