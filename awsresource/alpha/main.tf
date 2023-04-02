@@ -5,6 +5,6 @@ module "main" {
   }
   service_name = [
     "test-ecr",
-    "dfdftest-ecr"
+    "test2-ecr"
   ]
 }
