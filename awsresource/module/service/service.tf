@@ -7,5 +7,10 @@ resource "aws_ecr_repository" "this" {
     scan_on_push = false
   }
 
-  tags = var.default_tags
+  tags = merge(
+    var.default_tags,
+    {
+      Team = "sre"
+    },
+  )
 }
