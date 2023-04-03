@@ -1,5 +1,7 @@
 config {
   module = true
+  format = "compact"
+  disabled_by_default = true
 }
 
 plugin "aws" {
