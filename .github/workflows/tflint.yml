@@ -21,12 +21,12 @@ jobs:
       name: Setup TFLint
       with:
         tflint_version: v0.44.1
-
+        
     - name: Show version
       run: tflint --version
 
     - name: Init TFLint
-      run: tflint --init
+      run: cd awsresource/alpha && tflint --init
 
     - name: Run TFLint
-      run: tflint -f compact
+      run: cd awsresource/alpha &&  tflint -f compact
