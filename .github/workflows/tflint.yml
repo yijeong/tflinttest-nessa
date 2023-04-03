@@ -26,6 +26,8 @@ jobs:
       run: cd awsresource/alpha
 
     - name: Show version
+      run: ls 
+    - name: Show version
       run: tflint --version
 
     - name: Init TFLint
