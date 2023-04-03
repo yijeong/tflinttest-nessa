@@ -20,7 +20,7 @@
 
 
 ## Team Service Tag 가 추가 되어있나요?  
-- [] Team 
-- [] Service 
+- [ ] Team 
+- [ ] Service 
 
 ### \* 반영 완료후 SRE팀에서 merge 합니다.
