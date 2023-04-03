@@ -6,4 +6,3 @@ repos:
         args:
           - "--module"
           - "--config=.tflint.hcl"
-          - "--chdir=awsresource"
