@@ -13,4 +13,3 @@ jobs:
       uses: devops-infra/action-tflint@v0.3
       with:
         tflint_params: "--module --deep"
-        dir_filter: module
