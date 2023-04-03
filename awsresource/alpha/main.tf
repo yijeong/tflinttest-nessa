@@ -4,6 +4,6 @@ module "main" {
     Terraform   = "true"
   }
   service_name = [
-    "test-ecr7",
+    "test-fff",
   ]
 }
