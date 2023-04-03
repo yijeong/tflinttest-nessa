@@ -7,3 +7,5 @@ mergeable:
         payload:
           body: >
             새로 만드는 AWS resource에 Team, Service 태그가 정의되었는지 반드시 확인 부탁드립니다.
+            - [ ] Team 
+            - [ ] Service
