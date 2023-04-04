@@ -10,7 +10,7 @@ resource "aws_ecr_repository" "this" {
   tags = merge(
     var.default_tags,
     {
-      Team = "sre"
+      Team = "test"
     },
   )
 }
